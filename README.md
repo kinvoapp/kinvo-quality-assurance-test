@@ -86,6 +86,6 @@ Seu desafio nesta etapa é desenvolver testes automatizados no app kinvo, a part
 
 ---
 
-Está com alguma dificuldade, encontrou algum problema no desafio ou tem alguma sugestão pra gente? Crie uma [issue]() e descreva o que achar necessário.
+Está com alguma dificuldade, encontrou algum problema no desafio ou tem alguma sugestão pra gente? Crie uma [issue](https://github.com/kinvoapp/kinvo-quality-assurance-test/issues) e descreva o que achar necessário.
 
 **Sucesso!**
