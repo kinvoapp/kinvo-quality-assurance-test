@@ -11,6 +11,8 @@ E escolher uma instituição financeira <instituição>
 E clicar em “Avançar”
 Então a tela de Escolha do papel deve ser exibida
 
+#Tela Escolha do papel
+
 Esquema do Cenário: CT02 - O usuário não escolhe uma instituição financeira e clica em “Avançar”
 Dado que eu esteja logado no aplicativo da Kinvo na opção de adicionar ativos
 Quando selecionar a opção Ações, Stock, e ETF
@@ -27,6 +29,8 @@ Dado que eu esteja na tela de escolha do papel
 Quando selecionar um papel <papel> 
 E clicar em “Avançar”
 Então a tela de informações adicionais deve ser exibida
+
+#Tela Informações adicionais
 
 Esquema do Cenário: CT05 - O usuário não preenche a data de compra e clica em “Avançar”
 Dado que eu esteja na tela de informações adicionais
@@ -80,6 +84,8 @@ Quando eu preencher a quantidade <quantidade>
 E preencher o preço <preco>
 Quando clicar em “Avançar”
 Então a tela de “Finalizar a adição da ação” deve ser exibida
+
+#Tela “Finalizar a adição da ação”
 
 Esquema do Cenário: CT13 - O usuário preenche todos os campos e clica em “Avançar”
 Dado que os campos “Quantidade”, “Preço” e “Taxa” tenham sido exibibos
