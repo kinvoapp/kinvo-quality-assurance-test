@@ -76,6 +76,8 @@ E a cotação <cotacao> maior que zero
 E clicar em “Avançar”
 Então a tela “Finalizar a adição de criptoativos” deve ser exibida
 
+#Tela “Finalizar a adição de criptoativos”
+
 Esquema do Cenário: CT12 - O usuário clica em “Confirmar”
 Dado que esteja na tela “Finalizar a adição de criptoativos”
 Quando clicar em “Confirmar”
