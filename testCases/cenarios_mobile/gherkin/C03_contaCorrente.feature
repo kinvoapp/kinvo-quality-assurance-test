@@ -18,6 +18,8 @@ E escolher uma instituição financeira <instituição>
 E clicar em “Avançar”
 Então a tela de “Informações adicionais” deve ser exibida
 
+#Tela de “Informações adicionais”
+
 Esquema do Cenário: CT03 - O usuário não preenche a data de início e clica em “Avançar”
 Dado que eu esteja na tela de “Informações adicionais”
 Quando preencher o campo de valor aplicado <valor>
@@ -51,6 +53,8 @@ E preencer o campo de valor aplicado <valor>
 E clicar em “Avançar”
 Então a tela de “Rentabilidade” deve ser exibida
 
+#Tela “Rentabilidade”
+
 Esquema do Cenário: CT08 - O usuário não preenche “% sobre o CDI” e clica em “Avançar”
 Dado que eu esteja na tela de “Rentabilidade”
 Quando cilcar em “Avançar”
@@ -60,6 +64,8 @@ Esquema do Cenário: CT09 - O usuário preenche “% sobre o CDI” e clica em �
 Dado que eu esteja na tela de “Rentabilidade”
 Quando cilcar em preencher o campo “% sobre o CDI” <rentabilidade>
 Então a tela de “Finalizar a adição da conta corrente” deve ser exibida
+
+#Tela “Finalizar a adição da conta corrente”
 
 Esquema do Cenário: CT10 - O usuário clica em “Finalizar”
 Dado que eu esteja na tela de “Finalizar a adição da conta corrente”
