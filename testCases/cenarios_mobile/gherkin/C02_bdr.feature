@@ -11,6 +11,8 @@ E escolher uma instituição financeira <instituição>
 E clicar em “Avançar”
 Então a tela de Escolha do papel deve ser exibida
 
+#Tela “Escolha do papel”
+
 Esquema do Cenário: CT02 - O usuário não escolhe uma instituição financeira e clica em “Avançar”
 Dado que eu esteja logado no aplicativo da Kinvo na opção de adicionar ativos
 Quando selecionar a opção BDR
@@ -27,6 +29,8 @@ Dado que eu esteja na tela de escolha do papel
 Quando selecionar um papel <papel> 
 E clicar em “Avançar”
 Então a tela de informações adicionais deve ser exibida
+
+#Tela “Informações Adicionais”
 
 Esquema do Cenário: CT05 - O usuário não preenche a data de compra e clica em “Avançar”
 Dado que eu esteja na tela de informações adicionais
@@ -88,6 +92,8 @@ E preencher o preço <preco>
 E preencher a taxa <taxa>
 Quando clicar em “Avançar”
 Então a tela de “Finalizar a adição do BDR” deve ser exibida
+
+#Tela “Finalizar a adição do BDR”
 
 Esquema do Cenário: CT14 - O usuário clica em “Adicionar”
 Dado que eu esteja na tela de “Finalizar a adição do BDR”
