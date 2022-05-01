@@ -85,8 +85,6 @@ E preencher o preço <preco>
 Quando clicar em “Avançar”
 Então a tela de “Finalizar a adição da ação” deve ser exibida
 
-#Tela “Finalizar a adição da ação”
-
 Esquema do Cenário: CT13 - O usuário preenche todos os campos e clica em “Avançar”
 Dado que os campos “Quantidade”, “Preço” e “Taxa” tenham sido exibibos
 Quando eu preencher a quantidade <quantidade>
@@ -95,12 +93,12 @@ E preencher a taxa <taxa>
 Quando clicar em “Avançar”
 Então a tela de “Finalizar a adição da ação” deve ser exibida
 
+#Tela “Finalizar a adição da ação”
+
 Esquema do Cenário: CT14 - O usuário clica em “Adicionar”
 Dado que eu esteja na tela de “Finalizar a adição da ação”
 Quando clicar em “Adicionar”
 Então será exibida a mensagem “Adicionado com Sucesso” e as opções “Adicionar um novo ativo”, “Adicionar uma nova ação” e o botão de fechar.
-
-
 
 
 
