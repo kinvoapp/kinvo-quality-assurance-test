@@ -10,6 +10,8 @@ Quando selecionar a opção criptoativos
 E clicar em “Avançar”
 Então a tela de “Escolha o criptoativo” deve ser exibida
 
+#Tela “Escolha o criptoativo”
+
 Esquema do Cenário: CT02 - O usuário escolhe uma instituição financeira e clica em “Avançar”
 Dado que eu esteja logado no aplicativo da Kinvo na opção de adicionar ativos
 Quando selecionar a opção criptoativos
