@@ -30,6 +30,8 @@ Quando selecionar um criptoativo <criptoativo>
 E clicar em “Avançar”
 Então a tela “Informações adicionais” deve ser exibida
 
+#Tela “Informações adicionais”
+
 Esquema do Cenário: CT05 - O usuário não preenche a data de compra e clica em “Avançar”
 Dado que esteja na tela “Informações adicionais”
 Quando preencher a quantidade <quantidade> maior que zero
