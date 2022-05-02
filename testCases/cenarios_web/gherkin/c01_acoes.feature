@@ -59,7 +59,7 @@ E e a data com valores válidos <data_valida>
 E clicar no botão Cadastrar
 Então deve ser exibida a mensagem "Quantidade deve ser maior do que zero."
 
-Esquema do Cenário: CT06 - Preencher todos os campos com valores válidos
+Esquema do Cenário: CT06 - Não preencher a cotação
 Quando seleciono a institução <instituicao>
 E preencho as taxas <taxas>
 E seleciono um ativo <ativo>
