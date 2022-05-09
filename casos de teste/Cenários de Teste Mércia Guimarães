@@ -1,0 +1,54 @@
+# language: pt
+Característica: Abertura de contas
+
+#background
+
+Cenário: Cadastro novo usuário
+ Dado: Preencher todos os campos obrigatórios
+ Quando clicar em "Criar conta"
+ Então Retorna uma mensagem na tela "Cadastro realizado com sucesso"
+
+Cenário: Cadastro novo usuário
+ Dado: Não preencher um ou mais campos obrigatórios
+ Quando: Clica em outro campo
+ Então: Não permite realizar o cadastro e exibe uma mensagem de alerta abaixo do campo  
+
+Cenário: Cadastro novo usuário
+ Dado: Preencher com e-mail já cadastrado
+ Quando: clicar em "Criar conta"
+ Então: Não permite realizar o cadastro e retorna uma mensagem "E-mail já está cadastrado"
+
+Cenário: Cadastro novo usuário
+ Dado: Preenchimento da senha somente com números
+ Quando: O campo é preenchido apenas com números
+ Então: o sistema não permite criar conta e exibe uma mensagem de alerta abaixo do campo
+
+Cenário: Cadastro novo usuário
+ Dado: Não marcar a flag de "termo" e de "privacidade
+ Quando: a flag não é marcada
+ Então: o botão "criar conta" fica inativado
+
+Cenário: Acesso ao sistema
+ Dado: Preenchendo com o e-mail e senha
+ Quando: O campo é preenchido com o e-mail e senha cadastrados
+ Então: O login é realizado
+
+Cenário: Acesso ao sistema
+ Dado: Preenchendo com e-mail e senha
+ Quando: O campo é preenchido com e-mail incorreto
+ Então: Exibe uma mensagem de alerta na tela, não permitindo o acesso
+
+Cenário: Cadastro de carteira 
+ Dado: Preenchimento de todos os campos
+ Quando: Clicar em "Cadastrar"
+ Então: Exibe uma mensagem na tela de produto cadastrado
+
+Cenário: Cadastro de carteira
+ Dado: Não preencher um ou mais campos obrigátorios
+ Quando: ao clicar em "cadastrar" 
+ Então: Exibe uma mensagem de alerta abaixo do campo não preenchido
+
+Cenário: Cadastro de carteira
+ Dado: Preencher o campo "Data de inicio" com mais de 30 dias (exemplo: 01/08/2021)
+ Quando: clica em "cadastrar"
+ Então: O sistema permite cadastrar 
